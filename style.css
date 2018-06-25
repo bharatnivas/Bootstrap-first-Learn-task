@@ -4,12 +4,17 @@
 
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 body {
-    background: url(images/glass.png) left top repeat-x #082648;
+  /*  background: url(images/glass.png) left top repeat-x #082648;*/
+    background: url(images/glass.png) no-repeat fixed 100% 100%;
     font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
     color: #FFF;
-    height: 100vh;
+    height: 100%;
     min-height: 100%;
     font-size: 12px;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 p {
@@ -202,6 +207,56 @@ a.article:hover {
     color: #fff;
     background-color: black;
     box-shadow: 8px -4px 33px 0px rgba(0,0,0,0.75);
+}
+
+/*CalculationBox*/
+.minibox{
+    box-shadow: 8px -4px 33px 0px rgba(0,0,0,0.75);
+}
+.usertypes{
+    float: left;
+    width: 70%;
+    text-align: center;
+    padding: 0.58em;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    -o-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+     box-shadow: 8px -4px 33px 0px rgba(0,0,0,0.75);
+}
+.uservalue {
+    float: right;
+    width: 30%;
+    text-align: center;
+      padding: 1.54em 1em;
+    margin-top: 4px;
+    border: none;
+    color:#fff;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    -o-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+      box-shadow: 8px -4px 33px 0px rgba(0,0,0,0.75);
+}
+.uservalue label {
+    font-size: 2em;
+    color:#fff;
+}
+.usertypes p {
+    font-size: 2em;
+    color: #fff;
+    margin-top: 10px;
+    font-weight: 400;
+    padding:0;
+    margin:0;
+}
+.chartalign{
+    position: relative; 
+    box-shadow: 8px -4px 33px 0px rgba(0,0,0,0.75);
+}
+
+.chartfix {
+    padding: 50px 0px;
 }
 /* ---------------------------------------------------
     CONTENT STYLE

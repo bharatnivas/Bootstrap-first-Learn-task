@@ -121,7 +121,92 @@
                     </div>
                 </div>
             </nav>
+        <div class="CalculationBox">
+            <div class="container-fluid">
+               <div class="row">
+                <div class="col-lg-3">
+                  <div class="minibox">
+                     <div class="usertypes">
+                       <h5>Today</h5>
+                       <p>Users</p>
+                     </div>
+                     <div class="uservalue">
+                        <label>17</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                   <div class="minibox">
+                     <div class="usertypes">
+                       <h5>Today</h5>
+                       <p>Visitors</p>
+                     </div>
+                     <div class="uservalue">
+                        <label>09</label>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                   <div class="minibox">
+                    <div class="usertypes">
+                       <h5>Today</h5>
+                       <p>Tasks</p>
+                     </div>
+                     <div class="uservalue">
+                        <label>31</label>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="minibox">
+                     <div class="usertypes">
+                       <h5>Today</h5>
+                       <p>Alerts</p>
+                     </div>
+                     <div class="uservalue">
+                        <label>07</label>
+                    </div>
+                 </div>
+                </div>
+               </div>
+            </div>
         </div>
+<div class="chartfix">
+    <div class="container-fluid">
+        <div class="row">
+                <div class="col-lg-6">
+                    <div class="chartalign">
+                        <canvas id="myChart"></canvas>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="chartalign">
+                        <canvas id="chart"></canvas>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+<div>
+<div class="chartfix">
+<div class="container-fluid">
+<div class="row">
+ <div class="col-lg-6">
+                    <div class="chartalign">
+                        <canvas id="chartthree" width="100%" height="50%"></canvas>
+                    </div>
+                </div>
+                 <div class="col-lg-6">
+                    <div class="chartalign">
+                        <canvas id="chartfour" width="100%" height="50%"></canvas>
+                    </div>
+                </div>
+</div>
+</div>
+</div>
+</div>
+
+
     </div>
 
     <!-- jQuery CDN - Slim version (=without AJAX) -->
@@ -130,7 +215,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <!-- Bootstrap JS -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+    <script src="js/chart.js"></script>
+    <script src="js/chart2.js"></script>
+     <script src="js/chart3.js"></script>
+      <script src="js/chart4.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
             $('#sidebarCollapse').on('click', function () {
@@ -138,6 +227,8 @@
             });
         });
     </script>
+
+
 </body>
 
 </html>
