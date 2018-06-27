@@ -11,7 +11,7 @@
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <!-- Our Custom CSS -->
-    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
 
     <!-- Font Awesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
@@ -31,7 +31,7 @@
 
             <ul class="list-unstyled components">
                 <li class="active">
-                    <a href="index.html">
+                    <a href="../index.html">
                         <i class="fas fa-tachometer-alt"></i>
                         Dashboard
                     </a>
@@ -43,7 +43,7 @@
                     </a>
                     <ul class="collapse list-unstyled" id="formsSubmenu">
                         <li>
-                            <a href="pages/formelements.html">Form Elements</a>
+                            <a href="#">Form Elements</a>
                         </li>
                         <li>
                             <a href="#">Page 2</a>
@@ -71,7 +71,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="pages/widgets.html">
+                    <a href="#">
                         <i class="fas fa-globe"></i>
                         widgets
                     </a>
@@ -123,107 +123,93 @@
                     </div>
                 </div>
             </nav>
-        <div class="CalculationBox">
-            <div class="container-fluid">
-               <div class="row">
-                <div class="col-lg-3">
-                  <div class="minibox">
-                     <div class="usertypes">
-                       <h5>Today</h5>
-                       <p>Users</p>
-                     </div>
-                     <div class="uservalue">
-                        <label>17</label>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-3">
-                   <div class="minibox">
-                     <div class="usertypes">
-                       <h5>Today</h5>
-                       <p>Visitors</p>
-                     </div>
-                     <div class="uservalue">
-                        <label>09</label>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                   <div class="minibox">
-                    <div class="usertypes">
-                       <h5>Today</h5>
-                       <p>Tasks</p>
-                     </div>
-                     <div class="uservalue">
-                        <label>31</label>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                  <div class="minibox">
-                     <div class="usertypes">
-                       <h5>Today</h5>
-                       <p>Alerts</p>
-                     </div>
-                     <div class="uservalue">
-                        <label>07</label>
-                    </div>
-                 </div>
-                </div>
-               </div>
-            </div>
-        </div>
-<div class="chartfix">
-    <div class="container-fluid">
-        <div class="row">
-                <div class="col-lg-6">
-                    <div class="chartalign">
-                        <canvas id="myChart"></canvas>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="chartalign">
-                        <canvas id="chart"></canvas>
-                    </div>
-                </div>
-        </div>
-    </div>
-</div>
-<div>
-<div class="chartfix">
-<div class="container-fluid">
-<div class="row">
- <div class="col-lg-6">
-                    <div class="chartalign">
-                        <canvas id="chartthree" width="100%" height="50%"></canvas>
-                    </div>
-                </div>
-                 <div class="col-lg-6">
-                    <div class="chartalign">
-                        <canvas id="chartfour" width="100%" height="50%"></canvas>
-                    </div>
-                </div>
-</div>
-</div>
-</div>
-<div class="chartfix">
-    <div class="container-fluid">
+<div class="readywork">
     <div class="row">
-     <div class="col-lg-6">
-                        <div class="chartalign">
-                            <canvas id="chartnut" width="100%" height="50%"</canvas>
-                        </div>
-                    </div>
-                     <div class="col-lg-6">
-                        <div class="chartalign">
-                            <canvas id="radar" width="100%" height="50%"></canvas>
-                        </div>
-                    </div>
-    </div>
-    </div>
+        <div class="col-lg-6">
+            <h1>Overview</h1>
+            <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+        </div>
+        <div class="col-lg-6">
+            <h2>Form Controls</h2>
+            <form>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Email address</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">Example select</label>
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect2">Example multiple select</label>
+                  <select multiple class="form-control" id="exampleFormControlSelect2">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Example textarea</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+              </form>
+        </div>
     </div>
 </div>
-
+<div class="readywork">
+    <div class="row">
+      
+        <div class="col-lg-6">
+                <h2>File Control</h2>
+            <form>
+                        <div class="form-group">
+                          <label for="exampleFormControlFile1">Example file input</label>
+                          <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                        </div>
+             </form>
+        </div>
+        <div class="col-lg-6">
+            <h2>Readonly plain text</h2>
+                <form>
+                        <div class="form-group row">
+                          <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                          <div class="col-sm-10">
+                            <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                          <div class="col-sm-10">
+                            <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                          </div>
+                        </div>
+                      </form>
+        </div>
+    </div>
+</div>
 
     </div>
 
@@ -234,12 +220,6 @@
     <!-- Bootstrap JS -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
-    <script src="js/chart.js"></script>
-    <script src="js/chart2.js"></script>
-     <script src="js/chart3.js"></script>
-      <script src="js/chart4.js"></script>
-      <script src="js/chart5.js"></script>
-      <script src="js/chart6.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
             $('#sidebarCollapse').on('click', function () {

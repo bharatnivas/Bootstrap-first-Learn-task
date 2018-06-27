@@ -5,7 +5,7 @@
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 body {
   /*  background: url(images/glass.png) left top repeat-x #082648;*/
-    background: url(images/glass.png) no-repeat fixed 100% 100%;
+    background: url(../images/glass.png) no-repeat fixed 100% 100%;
     font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
     color: #FFF;
     height: 100%;
@@ -272,7 +272,9 @@ a.article:hover {
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
-
+.readywork{
+    padding:15px 15px;
+}
 @media (max-width: 768px) {
     #sidebar {
         min-width: 80px;
