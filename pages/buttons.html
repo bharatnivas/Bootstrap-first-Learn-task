@@ -11,9 +11,7 @@
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <!-- Our Custom CSS -->
-    <link href="css/style.css" rel='stylesheet' type='text/css' />
-   
-    <link href="css/ designs.css" rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
 
     <!-- Font Awesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
@@ -33,7 +31,7 @@
 
             <ul class="list-unstyled components">
                 <li class="active">
-                    <a href="index.html">
+                    <a href="../index.html">
                         <i class="fas fa-tachometer-alt"></i>
                         Dashboard
                     </a>
@@ -45,12 +43,12 @@
                     </a>
                     <ul class="collapse list-unstyled" id="formsSubmenu">
                         <li>
-                            <a href="pages/formelements.html">Form Elements</a>
-                        </li>
-                        <!-- <li>
-                            <a href="#">Page 2</a>
+                            <a href="../pages/formelements.html">Form Elements</a>
                         </li>
                         <li>
+                            <a href="../pages/buttons.html">Buttons</a>
+                        </li>
+                        <!-- <li>
                             <a href="#">Page 3</a>
                         </li> -->
                     </ul>
@@ -62,21 +60,21 @@
                     </a>
                     <ul class="collapse list-unstyled" id="pageSubmenu">
                         <li>
-                           <a href="pages/alerts.html">Alerts</a>
+                            <a href="../pages/alerts.html">Alerts</a>
+                        </li>
+                        <!-- <li>
+                            <a href="#">Page 2</a>
                         </li>
                         <li>
-                                <a href="../pages/buttons.html">Buttons</a>
-                            </li>
-                        <!-- <li>
                             <a href="#">Page 3</a>
                         </li> -->
                     </ul>
                 </li>
                 <li>
-                    <a href="pages/widgets.html">
-                        <i class="fas fa-globe"></i>
-                        widgets
-                    </a>
+                        <a href="../pages/widgets.html">
+                            <i class="fas fa-globe"></i>
+                            widgets
+                        </a>
                 </li>
                 <!-- <li>
                     <a href="#">
@@ -125,106 +123,35 @@
                     </div>
                 </div>
             </nav>
-        <div class="CalculationBox">
             <div class="container-fluid">
-               <div class="row">
-                <div class="col-lg-3">
-                  <div class="minibox">
-                     <div class="usertypes">
-                       <h5>Today</h5>
-                       <p>Users</p>
-                     </div>
-                     <div class="uservalue">
-                        <label>17</label>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-3">
-                   <div class="minibox">
-                     <div class="usertypes">
-                       <h5>Today</h5>
-                       <p>Visitors</p>
-                     </div>
-                     <div class="uservalue">
-                        <label>09</label>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                   <div class="minibox">
-                    <div class="usertypes">
-                       <h5>Today</h5>
-                       <p>Tasks</p>
-                     </div>
-                     <div class="uservalue">
-                        <label>31</label>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                  <div class="minibox">
-                     <div class="usertypes">
-                       <h5>Today</h5>
-                       <p>Alerts</p>
-                     </div>
-                     <div class="uservalue">
-                        <label>07</label>
-                    </div>
-                 </div>
-                </div>
-               </div>
+                    <h1>Button tags</h1>
+                    <p>The .btn classes are designed to be used with the element. However, you can also use these classes on elements (though some browsers may apply a slightly different rendering).</p>
+                        <div>
+                                <a class="btn btn-primary" href="#" role="button">Link</a>
+                                <button class="btn btn-primary" type="submit">Button</button>
+                                <input class="btn btn-primary" type="button" value="Input">
+                                <input class="btn btn-primary" type="submit" value="Submit">
+                                <input class="btn btn-primary" type="reset" value="Reset">
+                        </div>
+                        <h1>Outline buttons</h1>
+                        <button type="button" class="btn btn-outline-primary">Primary</button>
+<button type="button" class="btn btn-outline-secondary">Secondary</button>
+<button type="button" class="btn btn-outline-success">Success</button>
+<button type="button" class="btn btn-outline-danger">Danger</button>
+<button type="button" class="btn btn-outline-warning">Warning</button>
+<button type="button" class="btn btn-outline-info">Info</button>
+<button type="button" class="btn btn-outline-light">Light</button>
+<button type="button" class="btn btn-outline-dark">Dark</button>
+<h1>Sizes</h1>
+<button type="button" class="btn btn-primary btn-lg">Large button</button>
+<button type="button" class="btn btn-secondary btn-lg">Large button</button>
+<h1>Active state</h1>
+<a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Primary link</a>
+<a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Link</a>
+<h1>Disabled state</h1>
+<button type="button" class="btn btn-lg btn-primary" disabled>Primary button</button>
+<button type="button" class="btn btn-secondary btn-lg" disabled>Button</button>
             </div>
-        </div>
-<div class="chartfix">
-    <div class="container-fluid">
-        <div class="row">
-                <div class="col-lg-6">
-                    <div class="chartalign">
-                        <canvas id="myChart"></canvas>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="chartalign">
-                        <canvas id="chart"></canvas>
-                    </div>
-                </div>
-        </div>
-    </div>
-</div>
-<div>
-<div class="chartfix">
-<div class="container-fluid">
-<div class="row">
- <div class="col-lg-6">
-                    <div class="chartalign">
-                        <canvas id="chartthree" width="100%" height="50%"></canvas>
-                    </div>
-                </div>
-                 <div class="col-lg-6">
-                    <div class="chartalign">
-                        <canvas id="chartfour" width="100%" height="50%"></canvas>
-                    </div>
-                </div>
-</div>
-</div>
-</div>
-<div class="chartfix">
-    <div class="container-fluid">
-    <div class="row">
-     <div class="col-lg-6">
-                        <div class="chartalign">
-                            <canvas id="chartnut" width="100%" height="50%"</canvas>
-                        </div>
-                    </div>
-                     <div class="col-lg-6">
-                        <div class="chartalign">
-                            <canvas id="radar" width="100%" height="50%"></canvas>
-                        </div>
-                    </div>
-    </div>
-    </div>
-    </div>
-</div>
 
 
     </div>
@@ -236,12 +163,6 @@
     <!-- Bootstrap JS -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
-    <script src="js/chart.js"></script>
-    <script src="js/chart2.js"></script>
-     <script src="js/chart3.js"></script>
-      <script src="js/chart4.js"></script>
-      <script src="js/chart5.js"></script>
-      <script src="js/chart6.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
             $('#sidebarCollapse').on('click', function () {

@@ -11,9 +11,7 @@
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <!-- Our Custom CSS -->
-    <link href="css/style.css" rel='stylesheet' type='text/css' />
-   
-    <link href="css/ designs.css" rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
 
     <!-- Font Awesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
@@ -33,7 +31,7 @@
 
             <ul class="list-unstyled components">
                 <li class="active">
-                    <a href="index.html">
+                    <a href="../index.html">
                         <i class="fas fa-tachometer-alt"></i>
                         Dashboard
                     </a>
@@ -45,7 +43,7 @@
                     </a>
                     <ul class="collapse list-unstyled" id="formsSubmenu">
                         <li>
-                            <a href="pages/formelements.html">Form Elements</a>
+                            <a href="../pages/formelements.html">Form Elements</a>
                         </li>
                         <!-- <li>
                             <a href="#">Page 2</a>
@@ -62,7 +60,7 @@
                     </a>
                     <ul class="collapse list-unstyled" id="pageSubmenu">
                         <li>
-                           <a href="pages/alerts.html">Alerts</a>
+                            <a href="../pages/alerts.html">Alerts</a>
                         </li>
                         <li>
                                 <a href="../pages/buttons.html">Buttons</a>
@@ -73,10 +71,10 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="pages/widgets.html">
-                        <i class="fas fa-globe"></i>
-                        widgets
-                    </a>
+                        <a href="../pages/widgets.html">
+                            <i class="fas fa-globe"></i>
+                            widgets
+                        </a>
                 </li>
                 <!-- <li>
                     <a href="#">
@@ -125,106 +123,42 @@
                     </div>
                 </div>
             </nav>
-        <div class="CalculationBox">
             <div class="container-fluid">
-               <div class="row">
-                <div class="col-lg-3">
-                  <div class="minibox">
-                     <div class="usertypes">
-                       <h5>Today</h5>
-                       <p>Users</p>
-                     </div>
-                     <div class="uservalue">
-                        <label>17</label>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-3">
-                   <div class="minibox">
-                     <div class="usertypes">
-                       <h5>Today</h5>
-                       <p>Visitors</p>
-                     </div>
-                     <div class="uservalue">
-                        <label>09</label>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                   <div class="minibox">
-                    <div class="usertypes">
-                       <h5>Today</h5>
-                       <p>Tasks</p>
-                     </div>
-                     <div class="uservalue">
-                        <label>31</label>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                  <div class="minibox">
-                     <div class="usertypes">
-                       <h5>Today</h5>
-                       <p>Alerts</p>
-                     </div>
-                     <div class="uservalue">
-                        <label>07</label>
-                    </div>
-                 </div>
-                </div>
-               </div>
+                <h1>Link color</h1>
+                <p>Use the .alert-link utility class to quickly provide matching colored links within any alert.</p>
+                <div class="alert alert-primary" role="alert">
+                        A simple primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+                      </div>
+                      <div class="alert alert-secondary" role="alert">
+                        A simple secondary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+                      </div>
+                      <div class="alert alert-success" role="alert">
+                        A simple success alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+                      </div>
+                      <div class="alert alert-danger" role="alert">
+                        A simple danger alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+                      </div>
+                      <div class="alert alert-warning" role="alert">
+                        A simple warning alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+                      </div>
+                      <div class="alert alert-info" role="alert">
+                        A simple info alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+                      </div>
+                      <div class="alert alert-light" role="alert">
+                        A simple light alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+                      </div>
+                      <div class="alert alert-dark" role="alert">
+                        A simple dark alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+                      </div>
+                      <h1>Additional content</h1>
+                      <p>Alerts can also contain additional HTML elements like headings, paragraphs and dividers.</p>
+                      <div class="alert alert-success" role="alert">
+                            <h4 class="alert-heading">Well done!</h4>
+                            <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+                            <hr>
+                            <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+                          </div>
             </div>
-        </div>
-<div class="chartfix">
-    <div class="container-fluid">
-        <div class="row">
-                <div class="col-lg-6">
-                    <div class="chartalign">
-                        <canvas id="myChart"></canvas>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="chartalign">
-                        <canvas id="chart"></canvas>
-                    </div>
-                </div>
-        </div>
-    </div>
-</div>
-<div>
-<div class="chartfix">
-<div class="container-fluid">
-<div class="row">
- <div class="col-lg-6">
-                    <div class="chartalign">
-                        <canvas id="chartthree" width="100%" height="50%"></canvas>
-                    </div>
-                </div>
-                 <div class="col-lg-6">
-                    <div class="chartalign">
-                        <canvas id="chartfour" width="100%" height="50%"></canvas>
-                    </div>
-                </div>
-</div>
-</div>
-</div>
-<div class="chartfix">
-    <div class="container-fluid">
-    <div class="row">
-     <div class="col-lg-6">
-                        <div class="chartalign">
-                            <canvas id="chartnut" width="100%" height="50%"</canvas>
-                        </div>
-                    </div>
-                     <div class="col-lg-6">
-                        <div class="chartalign">
-                            <canvas id="radar" width="100%" height="50%"></canvas>
-                        </div>
-                    </div>
-    </div>
-    </div>
-    </div>
-</div>
 
 
     </div>
@@ -236,12 +170,6 @@
     <!-- Bootstrap JS -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
-    <script src="js/chart.js"></script>
-    <script src="js/chart2.js"></script>
-     <script src="js/chart3.js"></script>
-      <script src="js/chart4.js"></script>
-      <script src="js/chart5.js"></script>
-      <script src="js/chart6.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
             $('#sidebarCollapse').on('click', function () {
