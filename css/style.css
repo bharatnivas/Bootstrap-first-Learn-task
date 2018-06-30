@@ -5,7 +5,7 @@
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 body {
   /*  background: url(images/glass.png) left top repeat-x #082648;*/
-    background: url(../images/glass.png) no-repeat fixed 100% 100%;
+    background-color: #2f296a;
     font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
     color: #FFF;
     height: 100%;
@@ -216,6 +216,7 @@ a.article:hover {
 .usertypes{
     float: left;
     width: 70%;
+    border-radius: .5rem;
     text-align: center;
     padding: 0.58em;
     box-shadow: 0 1px 1px rgba(0,0,0,.05);
@@ -227,6 +228,7 @@ a.article:hover {
 .uservalue {
     float: right;
     width: 30%;
+    border-radius: .5rem;
     text-align: center;
       padding: 1.54em 1em;
     margin-top: 4px;
@@ -252,6 +254,7 @@ a.article:hover {
 }
 .chartalign{
     position: relative; 
+    border-radius: .5rem;
     box-shadow: 8px -4px 33px 0px rgba(0,0,0,0.75);
 }
 
